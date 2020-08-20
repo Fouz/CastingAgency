@@ -1,0 +1,352 @@
+{
+	"info": {
+		"_postman_id": "14eb3a0c-8dab-4dd1-97de-48c159cbc6f6",
+		"name": "capstone",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/movies/new",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "fc74cf9c-2570-4ab5-876f-f708e192b1eb",
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(500);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkQzc3REZEN2cnBZdUk1aWJBRU81SCJ9.eyJpc3MiOiJodHRwczovL2ZvdXoudXMuYXV0aDAuY29tLyIsInN1YiI6Imdvb2dsZS1vYXV0aDJ8MTA1NTA2NTE5MDYzODc1MjExNjc4IiwiYXVkIjpbImNhcHN0b25lQXBpIiwiaHR0cHM6Ly9mb3V6LnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE1OTc5MjM5MjgsImV4cCI6MTU5NzkzMTEyOCwiYXpwIjoiQjZXVEpRbWRWTnY1eGdTbTUxa2JiWncyV0xJMFlMZlciLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9yIiwiZGVsZXRlOm1vdmllIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvciIsInBhdGNoOm1vdmllIiwicG9zdDphY3RvciIsInBvc3Q6bW92aWUiXX0.A91AuKufxqRXzzn2yBRevXUrtdU1ksUako7-5l6IEmPM3O6UqY7WGClKZbdQ2ySxDRUmggMKUqvkCymEqPjhHzFZlWrbzzeqdLrdoM3HeccxG0qCSHU6xQDq-Y1RWxAZHepPZ3qDCwloeVjAp_cWhobZbXMcY-asZTMLCnDk3w3iigBzuGbBTf_6eYZVZTLyXCtDLEI5PzOVpxlVJvQOpMufaMtgu2BHXxDSKc1u7HHa5oJZr2HsykpLlJOs9U0GrvKvsH6f4t-XvwR9sMmi0HyLQ39yqgixsdbKb-v9vWFSEQMW7aXERw7vmBMIAcGQbG39Zk-FDW07fB0GLY9MOg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/movies/new",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/actors/new",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9acb677a-c219-4826-af78-1a8200fa0321",
+						"exec": [
+							"pm.test(\"Status code is 500\", function(){\r",
+							"    pm.response.to.have.status(500);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkQzc3REZEN2cnBZdUk1aWJBRU81SCJ9.eyJpc3MiOiJodHRwczovL2ZvdXoudXMuYXV0aDAuY29tLyIsInN1YiI6Imdvb2dsZS1vYXV0aDJ8MTA1NTA2NTE5MDYzODc1MjExNjc4IiwiYXVkIjpbImNhcHN0b25lQXBpIiwiaHR0cHM6Ly9mb3V6LnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE1OTc5MjM5MjgsImV4cCI6MTU5NzkzMTEyOCwiYXpwIjoiQjZXVEpRbWRWTnY1eGdTbTUxa2JiWncyV0xJMFlMZlciLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9yIiwiZGVsZXRlOm1vdmllIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvciIsInBhdGNoOm1vdmllIiwicG9zdDphY3RvciIsInBvc3Q6bW92aWUiXX0.A91AuKufxqRXzzn2yBRevXUrtdU1ksUako7-5l6IEmPM3O6UqY7WGClKZbdQ2ySxDRUmggMKUqvkCymEqPjhHzFZlWrbzzeqdLrdoM3HeccxG0qCSHU6xQDq-Y1RWxAZHepPZ3qDCwloeVjAp_cWhobZbXMcY-asZTMLCnDk3w3iigBzuGbBTf_6eYZVZTLyXCtDLEI5PzOVpxlVJvQOpMufaMtgu2BHXxDSKc1u7HHa5oJZr2HsykpLlJOs9U0GrvKvsH6f4t-XvwR9sMmi0HyLQ39yqgixsdbKb-v9vWFSEQMW7aXERw7vmBMIAcGQbG39Zk-FDW07fB0GLY9MOg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/actors/new",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/actors/1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "655094fc-5f5c-4871-9150-0922e3d185a1",
+						"exec": [
+							"pm.test(\"Status code is 500\", function(){\r",
+							"    pm.response.to.have.status(500);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/actors/1",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/movies/1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "f0763399-1ccc-4d9f-b3db-5bb90b1141b2",
+						"exec": [
+							"pm.test(\"Status code is 500\", function(){\r",
+							"    pm.response.to.have.status(500);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkQzc3REZEN2cnBZdUk1aWJBRU81SCJ9.eyJpc3MiOiJodHRwczovL2ZvdXoudXMuYXV0aDAuY29tLyIsInN1YiI6Imdvb2dsZS1vYXV0aDJ8MTA1NTA2NTE5MDYzODc1MjExNjc4IiwiYXVkIjpbImNhcHN0b25lQXBpIiwiaHR0cHM6Ly9mb3V6LnVzLmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE1OTc5MjM5MjgsImV4cCI6MTU5NzkzMTEyOCwiYXpwIjoiQjZXVEpRbWRWTnY1eGdTbTUxa2JiWncyV0xJMFlMZlciLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9yIiwiZGVsZXRlOm1vdmllIiwiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiLCJwYXRjaDphY3RvciIsInBhdGNoOm1vdmllIiwicG9zdDphY3RvciIsInBvc3Q6bW92aWUiXX0.A91AuKufxqRXzzn2yBRevXUrtdU1ksUako7-5l6IEmPM3O6UqY7WGClKZbdQ2ySxDRUmggMKUqvkCymEqPjhHzFZlWrbzzeqdLrdoM3HeccxG0qCSHU6xQDq-Y1RWxAZHepPZ3qDCwloeVjAp_cWhobZbXMcY-asZTMLCnDk3w3iigBzuGbBTf_6eYZVZTLyXCtDLEI5PzOVpxlVJvQOpMufaMtgu2BHXxDSKc1u7HHa5oJZr2HsykpLlJOs9U0GrvKvsH6f4t-XvwR9sMmi0HyLQ39yqgixsdbKb-v9vWFSEQMW7aXERw7vmBMIAcGQbG39Zk-FDW07fB0GLY9MOg",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/movies/1",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "81094166-243f-429c-a6bf-5fe549ed9a3f",
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/actors",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "ef203229-63e1-41bf-8353-71f957dc985d",
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/actors",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/movies",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e17f27b0-febc-48f9-9c90-26a69b3c231d",
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/movies",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/actors/1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "52d994a9-1e80-4a32-8de5-ed9765ea96da",
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/actors/1",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"actors",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://ne-ya-ha-ha-ha.herokuapp.com/movies/1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "d1d4e2ec-5fa3-4916-a7db-1439a4fe1ce7",
+						"exec": [
+							"pm.test(\"Status code is 200\", function(){\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://ne-ya-ha-ha-ha.herokuapp.com/movies/1",
+					"protocol": "https",
+					"host": [
+						"ne-ya-ha-ha-ha",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"movies",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
