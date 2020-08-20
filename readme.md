@@ -9,7 +9,7 @@ containes two tables Movie with attriutes realse_date, title and an id, and the 
 To login or set up an account, go to the following url: 
 
 ```
-https://dev-uu11qs8p.auth0.com/authorize?audience=https://api.casting.com/&response_type=token&client_id=ILSxgHqXZ1F13aO8gdhjutvtzVH15O0H&redirect_uri=https://muco-casting-agency.herokuapp.com/
+https://fouz.us.auth0.com/authorize?audience=capstoneApi&response_type=token&client_id=B6WTJQmdVNv5xgSm51kbbZw2WLI0YLfW&redirect_uri=https://ne-ya-ha-ha-ha.herokuapp.com/
 ```
 
 After login you will see an access_token in the url path.
