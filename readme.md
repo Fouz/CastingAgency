@@ -1,10 +1,10 @@
-<h1>CastingAgency<h1>
+#CastingAgency
 
 Udacity Full Stack Developer Course Final Project
 
 This API lets Casting Assistants, Casting Directors, Executive Producers read, add, change and delete movies and actors.
 
-Heroku
+###Heroku
 The App is deployed on Heroku on the following link: https://ne-ya-ha-ha-ha.herokuapp.com/
 
 Pre-requisites and Local Development
