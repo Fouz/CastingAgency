@@ -8,7 +8,6 @@ import json
 database_path = "postgres+psycopg2://baftfehglspnqq:473bde560480bb01105756fbf4e19a634897bee74ec326f4a485d54b4bcbfda6@ec2-54-224-124-241.compute-1.amazonaws.com: 5432/d4dl7bdg09o6l5"
 # postgres: // baftfehglspnqq: 473bde560480bb01105756fbf4e19a634897bee74ec326f4a485d54b4bcbfda6@ec2-54-224-124-241.compute-1.amazonaws.com: 5432/d4dl7bdg09o6l5
 
-# database_path = "postgresql://postgres:Thinker1997@localhost:5432/meow"
 
 db = SQLAlchemy()
 
